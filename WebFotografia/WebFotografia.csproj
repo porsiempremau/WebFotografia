@@ -75,6 +75,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\estilos.css" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -82,7 +83,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
     <Folder Include="imagen\" />
   </ItemGroup>
   <PropertyGroup>
