@@ -1,2 +1,20 @@
 ﻿body {
 }
+
+#cabecera{
+    background-color: #5b7989;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px #02010a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+
+#MenuPrincipal{
+    float:right;
+    margin-right: 20px;
+}
+#MenuPrincipal > a {
+    margin-right: 10px;
+    text-decoration:none;
+}
