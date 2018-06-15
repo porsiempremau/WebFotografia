@@ -11,10 +11,14 @@
     display:flex;
     flex-direction:row; 
 }
-
+#cabecera h1{
+    width: 80%;
+    float: left;
+}
 #MenuPrincipal{
-    float:right;
-    margin-right: 20px;
+    float: right;
+    width: 20%;
+    padding-top: 1%;
 }
 #MenuPrincipal > a {
     margin-right: 10px;
