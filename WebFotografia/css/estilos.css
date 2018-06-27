@@ -25,3 +25,33 @@
     text-decoration:none;
     text-shadow:none
 }
+
+#imagenPrincipal{
+    text-align:center;
+    background-color: #82c3a6;
+}
+
+#imagenPrincipal img {
+    border: 1px solid black;    
+    margin: 10px;
+}
+
+#imagenSecundaria {
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    background-color: #d5c75f;    
+}
+#imagenSecundaria div{    
+    flex-grow: 1;
+}
+#imgRight{
+    border: 1px solid black; 
+    margin: 5%;
+    width: 400px;
+}
+#imgLeft{
+    border: 1px solid black; 
+    margin: 5%;
+    width: 400px;
+}
