@@ -49,9 +49,33 @@
     border: 1px solid black; 
     margin: 5%;
     width: 400px;
+    transition: transform 1s;
+}
+#imgRight:hover{
+    transform: rotate(10deg);
 }
 #imgLeft{
     border: 1px solid black; 
     margin: 5%;
     width: 400px;
+    transition: transform 1s;
+}
+#imgLeft:hover{
+    transform: translate(-5px, 20px);
+}
+
+
+
+
+
+@media (max-width: 420px){
+
+}
+
+@media (min-width: 421px) and (max-width: 720px){
+
+}
+
+@media (min-width: 721px){
+
 }
