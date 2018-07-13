@@ -1,7 +1,22 @@
 ﻿body {
+    font-family: Dancing script;
+    background-color: #02010a;
+    display: flex;
+    flex-flow: column;
 }
 
+img{
+    box-shadow: 2px 2px 4px 0 #02010a;
+}
+
+
+
 @media (max-width: 420px){
+    #contenido{
+        max-width: 100%;
+        align-self: center;
+    }
+
     #cabecera{
     background-color: #5b7989;
     color: white;
@@ -36,6 +51,7 @@
         border: 1px solid black;    
         margin: 10px;
         width: 80%
+        
     }
 
 
@@ -69,30 +85,47 @@
 
     footer {
         border-bottom-left-radius: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        -webkit-border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -webkit-border-bottom-right-radius: 10px;
         background-color: #C6d5c5;
         display: flex;
         flex-direction: column;
     }
-    footer div{
-        height: 50px;        
+    footer div{               
         flex-grow: 1;
     }
     #Fot1{
-        height: 50px;
-        background-color: red;
+        /*height: 50px;
+        background-color: red;*/
     }
     #Fot2{
-        height: 50px;
-        background-color: blue;
+        /*height: 50px;
+        background-color: blue;*/
     }
     #Fot3{
-        height: 50px;
-        background-color: green;
+        /*height: 50px;
+        background-color: green;*/
+    }
+    #Fot3 div{
+        display: flex;
+        flex-direction: row;
+    }
+    #Fot3 div img{
+        width:40px;
+        height:40px;
     }
     #Fot4{
-        height: 50px;
-        background-color: orange;
+        /*height: 50px;
+        background-color: orange;*/
+        border-bottom-left-radius:inherit;
+        -moz-border-radius-bottomleft: inherit;
+        -webkit-border-bottom-left-radius: inherit;
+        border-bottom-right-radius:inherit;
+        -moz-border-radius-bottomright: inherit;
+        -webkit-border-bottom-right-radius: inherit;
     }
 }
 
@@ -101,6 +134,10 @@
 }*/
 
 @media (min-width: 421px){
+    #contenido{
+        max-width: 900px;
+        align-self: center;
+    }
 
     #cabecera{
     background-color: #5b7989;
@@ -182,23 +219,37 @@
         flex-grow: 1;
     }
     #Fot1{
-        height: 50px;
-        background-color: red;
+        /*height: 50px;
+        background-color: red;*/
         order: 1;
+        border-bottom-left-radius: inherit;        
+        -moz-border-radius-bottomleft: inherit;
+        -webkit-border-bottom-left-radius: inherit;
     }
     #Fot2{
-        height: 50px;
-        background-color: blue;
+        /*height: 50px;
+        background-color: blue;*/
         order: 2;
     }
     #Fot3{
-        height: 50px;
-        background-color: green;
+        /*height: 50px;
+        background-color: green;*/
         order: 3;
     }
+    #Fot3 div{
+        display: flex;
+        flex-direction: row;
+    }
+    #Fot3 div img{
+        width:40px;
+        height:40px;
+    }
     #Fot4{
-        height: 50px;
-        background-color: orange;
-        order: 4;
+        /*height: 50px;
+        background-color: orange;*/
+        order: 4;        
+        border-bottom-right-radius: inherit;
+        -moz-border-radius-bottomright: inherit;
+        -webkit-border-bottom-right-radius: inherit;
     }
 }
