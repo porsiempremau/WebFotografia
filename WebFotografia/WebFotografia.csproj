@@ -69,6 +69,8 @@
     <Content Include="imagen\Bosque.jpg" />
     <Content Include="imagen\Cascadas.jpg" />
     <Content Include="imagen\Mar.jpg" />
+    <Content Include="imagen\PaisajesRetratos\CatedralPuebla.jpg" />
+    <Content Include="imagen\PaisajesRetratos\RetratoFrida.jpg" />
     <Content Include="imagen\RedesSociales\IconFacebook.png" />
     <Content Include="imagen\RedesSociales\IconTwiter.png" />
     <Content Include="imagen\RedesSociales\IconWhatsapp.png" />
@@ -84,6 +86,7 @@
   <ItemGroup>
     <Content Include="css\estilos.css" />
     <Content Include="index.html" />
+    <Content Include="Paisajes.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
