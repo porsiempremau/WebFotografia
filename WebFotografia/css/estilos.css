@@ -11,7 +11,7 @@ img{
 
 
 
-@media (max-width: 420px){
+@media screen and (max-width: 420px){
     #contenido{
         max-width: 100%;
         align-self: center;
@@ -80,7 +80,7 @@ img{
         transition: transform 1s;
     }
     #imgLeft:hover{
-        transform: translate(-5px, 20px);
+        transform: translate(5px, -20px);
     }
 
     footer {
@@ -93,6 +93,7 @@ img{
         background-color: #C6d5c5;
         display: flex;
         flex-direction: column;
+        padding-left: 1%;
     }
     footer div{               
         flex-grow: 1;
@@ -199,7 +200,7 @@ img{
 
 }*/
 
-@media (min-width: 421px){
+@media screen and (min-width: 421px){
     #contenido{
         max-width: 900px;
         align-self: center;
@@ -214,6 +215,7 @@ img{
     border-top-right-radius: 10px;   
     display:flex;
     flex-direction:row; 
+    padding-left: 2%;
     }
     #cabecera h1{
         width: 80%;
@@ -229,6 +231,7 @@ img{
         text-decoration:none;
         text-shadow:none
     }
+   
 
     #imagenPrincipal{
         text-align:center;
@@ -259,7 +262,7 @@ img{
         flex-grow: 1;
     }
     #imgLeft:hover{
-        transform: translate(-5px, 20px);
+        transform: translate(5px, -20px);
     }
     #imgRight{
         border: 1px solid black; 
@@ -280,6 +283,7 @@ img{
     background-color: #C6d5c5;
     display: flex;
     flex-direction: row;
+    padding-left: 2%;
     }
     footer div{        
         flex-grow: 1;
